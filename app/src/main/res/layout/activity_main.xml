@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#999">
+    android:background="@color/main_background">
 
     <TextView
         android:id="@+id/test_text"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:text="Hello World!"
         android:textStyle="bold"
-        android:textColor="#444"
+        android:textColor="@color/main_text_color"
         android:textSize="32dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
